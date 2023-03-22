@@ -3,6 +3,12 @@
 Python classes to iterate through files in chunks
 
 
+## Installation
+
+pip install file_chunk_iterators
+
+
+## Usage
 We provide two functions:
 
 1. iterate_file_in_chunks
