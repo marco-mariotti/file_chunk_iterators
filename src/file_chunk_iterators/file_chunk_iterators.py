@@ -82,7 +82,7 @@ class iterate_file_in_chunks:
         self.fh=open(fname, 'r')
         self.totlines=buf_count_newlines_gen(fname)
         if not nchunks is None:
-            self.chunksize=totlines/nchunks
+            self.chunksize=self.totlines/nchunks
         elif not nlines is None:
             self.chunksize=nlines
         else:
